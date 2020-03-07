@@ -1,0 +1,9 @@
+{
+  "go.buildFlags": [
+    "nucleog070rb", "stm32g07x", "stm32", "cortexm"
+  ],
+  "go.useLanguageServer": true,
+  "go.toolsEnvVars": {
+    "GOFLAGS": "-tags=nucleog070rb,stm32g07x,stm32,cortexm"
+  }
+}
